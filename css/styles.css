@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #747704;
+}
+
+.text-super {
+    font-size: 3em;
+}
+
+.text-center {
+    text-align: center;
+}
