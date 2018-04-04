@@ -9,52 +9,106 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
-      <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-responsive" src="images/logo.png" alt="Imagem do logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-super">Lucas Mendes da Fonseca</h1>
+          <h3>Front-end Ninja Developer</h3>
+        </div>
         <div class="row">
-          <div class="col-md-6">
-            <img class="img-responsive" src="images/logo.png" alt="Imagem do logo">
+          <div class="col-md-12">
+            <hr>
           </div>
-          <div class="col-md-6 text-right text-uppercase">
-            <h1 class="text-super">Lucas Mendes da Fonseca</h1>
-            <h3>Front-end Ninja Developer</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-responsive" src="images/main.png" alt="Imagem principal"> 
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <hr>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+            <h2 class="text-center">Featured Work</h2>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <img class="img-responsive" src="images/main.png" alt="Imagem principal"> 
-            </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img class="img-responsive img-works" src="images/java.png" alt="Imagem do primeiro projeto" data-toggle="modal" data-target="#project1">
+            <h3>App1</h3>
+            <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <hr>
-              <h2>Featured Work</h2>
-            </div>
+          <div class="col-md-4">
+            <img class="img-responsive img-works" src="images/html-css-js.png" alt="Imagem do segundo projeto" data-toggle="modal" data-target="#project2">
+            <h3>App2</h3>
+            <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
           </div>
-          <div class="row text-center">
-            <div class="col-md-4">
-              <img class="img-responsive" src="image/work1.png" alt="Imagem do primeiro projeto">
-              <h3>App1</h3>
-              <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
-            </div>
-            <div class="col-md-4">
-              <img class="img-responsive" src="image/work2.png" alt="Imagem do segundo projeto">
-              <h3>App2</h3>
-              <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
-            </div>
-            <div class="col-md-4">
-              <img class="img-responsive" src="image/work3.png" alt="Imagem do terceiro projeto">
-              <h3>App3</h3>
-              <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
-            </div>
+          <div class="col-md-4">
+            <img class="img-responsive img-works" src="images/android.png" alt="Imagem do terceiro projeto" data-toggle="modal" data-target="#project3">
+            <h3>App3</h3>
+            <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel1">Java</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/java.png" alt="Logo do Java">
+              Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel2">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/html-css-js.png">
+              Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel3">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/android.png">
+              Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
