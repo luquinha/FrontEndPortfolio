@@ -16,5 +16,12 @@ body {
     border: 1px solid #DDD;
     border-radius: 4px;
     padding: 5px;
-    max-width: 100%;
+    width: 100vh;
+    height: 100vh;
+}
+
+.img-modal {    
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
 }
