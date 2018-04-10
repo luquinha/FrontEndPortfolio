@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #E5E5E5;
+    background-color: #454545;
+}
+
+.text-super {
+    font-size: 3em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-works {
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100vh;
+    height: 100vh;
+}
+
+.img-modal {    
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.text-modal {
+    color: black;
+}
+
+.main {
+    background-color: #323232;
+    margin: 0 auto;
+}
