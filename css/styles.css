@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #E5E5E5;
+    color: #e5e5e5;
     background-color: #454545;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .img-works {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 4px;
     height: 50vh;
     margin: 0 auto;
