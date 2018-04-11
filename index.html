@@ -9,41 +9,51 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive-style.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" href="images/logo_32.png">
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+      <header class="row">
+        <div class="col-md-6 logo">
+          <img class="img-responsive" src="images/logo_128.png" alt="Logo">
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="text-super">Lucas Mendes da Fonseca</h1>
           <h3>Front-end Ninja Developer</h3>
         </div>
-        <div class="row main">
-          <div class="row">
-            <div class="col-md-12">
-              <hr>
-              <h2 class="text-center">Featured Work</h2>
-            </div>
-          </div>
-          <div class="row text-center ">
-            <div class="col-md-4">
-              <img class="img-responsive img-works" src="images/java_logo.svg" alt="Imagem do primeiro projeto" data-toggle="modal" data-target="#project1">
-              <h3>Java</h3>
-            </div>
-            <div class="col-md-4">
-              <img class="img-responsive img-works" src="images/HTML5_logo_and_wordmark.svg" alt="Imagem do segundo projeto" data-toggle="modal" data-target="#project2">
-              <h3>HTML5</h3>
-            </div>
-            <div class="col-md-4">
-              <img class="img-responsive img-works" src="images/Android_robot.svg" alt="Imagem do terceiro projeto" data-toggle="modal" data-target="#project3">
-              <h3>Android</h3>              
-            </div>
+      </header>
+      
+      <section class="row main">
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+            <h2 class="text-center">Featured Work</h2>
           </div>
         </div>
-      </div>
+        <div class="row text-center">
+          <div class="col-md-8">
+            <img class="img-responsive img-works" src="images/java_logo.svg" alt="Imagem do primeiro projeto" data-toggle="modal" data-target="#project1">
+            <h3>Java</h3>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive img-works" src="images/HTML5_logo_and_wordmark.svg" alt="Imagem do segundo projeto" data-toggle="modal" data-target="#project2">
+            <h3>HTML5</h3>
+          </div>          
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img class="img-responsive img-works" src="images/javaScript_logo.svg" alt="Imagem do terceiro projeto" data-toggle="modal" data-target="#project3">
+            <h3>Android</h3>
+          </div>
+          <div class="col-md-8">
+            <img class="img-responsive img-works" src="images/Android_robot.svg" alt="Imagem do terceiro projeto" data-toggle="modal" data-target="#project4">
+            <h3>Android</h3>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- Modal -->
@@ -55,9 +65,9 @@
           </div>
           <div class="modal-body">
             <img class="img-responsive img-modal" src="images/java_logo.svg" alt="Logo do Java">
-            <p>
+            <article>
               Este é meu repositório de um projeto utilizando a linguagem de programação JAVA.
-            </p>
+            </article>
             <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
           </div>
           <div class="modal-footer">
@@ -75,9 +85,9 @@
           </div>
           <div class="modal-body">
             <img class="img-responsive img-modal" src="images/HTML5_logo_and_wordmark.svg" alt="Logo do HTML5">
-            <p>
+            <article>
               Este é meu repositório de um projeto utilizando HTML5.
-            </p>
+            </article>
             <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>
           </div>
           <div class="modal-footer">
@@ -91,13 +101,33 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title text-center" id="myModalLabel3">Android</h4>
+            <h4 class="modal-title text-center" id="myModalLabel3">JavaScript</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-modal" src="images/javaScript_logo.svg" alt="Logo do Android">
+            <article>
+              Este é meu repositório de um projeto utilizando JavaScript.
+            </article>
+            <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>   
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade text-modal" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel4">Android</h4>
           </div>
           <div class="modal-body">
             <img class="img-responsive img-modal" src="images/Android_robot.svg" alt="Logo do Android">
-            <p>
+            <article>
               Este é meu repositório de um projeto utilizando Android.
-            </p>
+            </article>
             <p><a href="https://github.com/luquinha" target="#">https://github.com/luquinha</a></p>   
           </div>
           <div class="modal-footer">

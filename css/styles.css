@@ -12,18 +12,24 @@ body {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .img-works {
     border: 1px solid #DDD;
     border-radius: 4px;
+    height: 50vh;
+    margin: 0 auto;
     padding: 5px;
     width: 100vh;
-    height: 100vh;
 }
 
 .img-modal {    
     width: 30%;
     height: 30%;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .text-modal {
@@ -32,5 +38,9 @@ body {
 
 .main {
     background-color: #323232;
-    margin: 0 auto;
+    margin: 5em auto 5em;
+}
+
+.logo {
+    margin: 1em auto;
 }
