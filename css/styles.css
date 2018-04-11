@@ -23,6 +23,7 @@ body {
     margin: 0 auto;
     padding: 5px;
     width: 100vh;
+    /*todo usar max width*/
 }
 
 .img-modal {    
